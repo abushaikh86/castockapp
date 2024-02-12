@@ -126,7 +126,7 @@ void initState() {
                         ElevatedButton(onPressed: () async {
                         String uEmail = emailText.text.toString();
                         String uPass = passwordText.text;
-                        print("Email: $uEmail, Password: $uPass");
+                        // print("Email: $uEmail, Password: $uPass");
                         var hashedPassword = "";
                         if(uEmail != '' && uPass != '') {
                           var user_info = dbHelper!.getAdminUser(uEmail);
